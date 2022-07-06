@@ -51,11 +51,13 @@ body {
     text-align: center;
 }
 
-.donate-heading h2 {
+h2 {
     font-size: 50px;
+    margin: 0;
+    padding: 5px 0;
 }
 
-.donate-heading p {
+ p {
     font-size: 20px;
     color: #707070;
 }
@@ -112,4 +114,50 @@ body {
     font-size: 20px;
 }
 
+.donate-plan{
+    margin: 80px auto;
+}
 
+.donate-plan-heading{
+    text-align: center;
+    padding: 40px 300px;
+}
+
+.donate-plan-content{
+    width: 85%;
+    display: flex;
+    margin: auto;
+}
+
+.donate-plan-item{
+    width: 28%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 1px 1px 15px #d8cbcb;
+    border-radius: 5px;
+}
+
+.icon{
+    margin-top: 50px;
+}
+
+.donate-plan-item h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.donate-plan-item p{
+    font-size: 18px;
+}
+
+#food{
+    background-color: #edf5f6;
+}
+
+#shelter{
+    background-color: #fff4d6;
+}
+
+#education{
+    background-color: #ffeeee;
+}
