@@ -186,10 +186,11 @@ h2 {
     padding: 18px;
     border-radius: 4px 0 0 4px;
     border: none;
+    background-color: #bcd8bc ;
 }
 
 .subscribe-form form input::placeholder{
-    font-size: 16px;
+    font-size: 17px;
     color: #999999;
 }
 
@@ -198,8 +199,9 @@ h2 {
     text-decoration: none;
     background: #21b573;
     text-align: center;
-    padding: 16px;
+    padding: 15px;
     color: #ffffff;
+    font-size: 17px;
     border-radius: 0 4px 4px 0;
     
 }
@@ -212,6 +214,6 @@ footer{
 }
 
 footer h3{
-    color: #ff5959;
+    color: #21b573;
     font-size: 28px;
 }
